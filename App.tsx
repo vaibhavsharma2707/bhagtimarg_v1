@@ -9,7 +9,7 @@ import DeityPage from './pages/DeityPage';
 import ContentDisplayPage from './pages/ContentDisplayPage';
 import HoroscopePage from './pages/HoroscopePage';
 import About from './components/About';
-import Privacy from './components/privacy';
+import Privacy from './components/Privacy';
 const App: React.FC = () => {
   return (
     <LanguageProvider>
@@ -23,7 +23,7 @@ const App: React.FC = () => {
               <Route path="/content/:contentType/:contentId" element={<ContentDisplayPage />} />
               <Route path="/horoscope" element={<HoroscopePage />} />
               <Route path="/about" element={<About />} />
-              <Route path="/privacy" element={<Privacy />} />
+              <Route path="/Privacy" element={<Privacy />} />
             </Routes>
           </main>
           <Footer />

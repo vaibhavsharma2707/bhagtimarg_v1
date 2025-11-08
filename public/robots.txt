@@ -1,0 +1,9 @@
+# Allow all search engines to crawl everything
+User-agent: *
+Disallow:
+
+# Sitemap location
+Sitemap: https://bhagtimarg.co.in/sitemap.xml
+
+# Crawl-delay can be added if you want to limit crawl frequency
+# Crawl-delay: 10

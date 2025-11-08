@@ -2,8 +2,6 @@ import React from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { ALL_CONTENT } from '../data/content';
 import { useLanguage } from '../contexts/LanguageContext';
-//import AudioPlayer from '../components/AudioPlayer';
-//import MusicPlayer from '../components/MusicPlayer';
 
 const ContentDisplayPage: React.FC = () => {
   const { contentId, contentType } = useParams<{
@@ -11,25 +9,24 @@ const ContentDisplayPage: React.FC = () => {
     contentId: string;
   }>();
 
-  console.log(contentType, contentId);
   const { language } = useLanguage();
   const contentItem = ALL_CONTENT.find(
     (c) =>
       c.id === contentId && c.type.toLowerCase() === contentType?.toLowerCase()
   );
 
-  if (!contentItem) {
-    return <Navigate to="/" />;
-  }
+  if (!contentItem) return <Navigate to="/" replace />;
 
-  const goBackLink = contentItem.deityId
-    ? `/deity/${contentItem.deityId}`
-    : '/';
-
-  const contentToDisplay =
+  const goBackLink = contentItem.deityId ? `/deity/${contentItem.deityId}` : '/';
+  const contentToDisplay = Array.isArray(
     language === 'hi' && contentItem.content_hi
       ? contentItem.content_hi
-      : contentItem.content;
+      : contentItem.content
+  )
+    ? language === 'hi' && contentItem.content_hi
+      ? contentItem.content_hi
+      : contentItem.content
+    : [];
 
   return (
     <div className="max-w-3xl mx-auto bg-brand-bg p-8 md:p-12 rounded-xl shadow-lg">
@@ -68,4 +65,3 @@ const ContentDisplayPage: React.FC = () => {
 };
 
 export default ContentDisplayPage;
-

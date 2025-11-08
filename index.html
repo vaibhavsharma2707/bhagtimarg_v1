@@ -1,122 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML5197TKFG"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML5197TKFG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ML5197TKFG');
+  </script>
 
-        gtag('config', 'G-ML5197TKFG');
-    </script>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BhagtiMarg</title>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BhagtiMarg</title>
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'brand-bg': '#FFF8E7',          // Softer saffron-cream tone
-              'brand-text': '#4A2C00',        // Deep earthy brown
-              'brand-primary': '#E8A44C',     // Calm saffron
-              'brand-secondary': '#C47F28',   // Muted saffron-brown
-              'brand-accent': '#8B5E1A',      // Temple shadow tone
-            },
-            fontFamily: {
-              'sans': ['Inter', 'sans-serif'],
-              'serif': ['"Noto Serif"', 'serif'],
-            },
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="BhagtiMarg: Devotional platform with chalisas, aartis, mantras, and stories for Hindu gods." />
+  <meta name="keywords" content="BhagtiMarg, Hindu mantras, aartis, chalisas, devotional content" />
+  <meta name="author" content="Vaibhav Sharma" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="BhagtiMarg – Devotional platform for Hindu gods" />
+  <meta property="og:description" content="Explore chalisas, aartis, mantras, and stories of Hindu deities." />
+  <meta property="og:image" content="https://bhagtimarg.in/path-to-image.jpg" />
+  <meta property="og:url" content="https://bhagtimarg.in" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BhagtiMarg – Devotional platform for Hindu gods" />
+  <meta name="twitter:description" content="Explore chalisas, aartis, mantras, and stories of Hindu deities." />
+  <meta name="twitter:image" content="https://bhagtimarg.in/path-to-image.jpg" />
+
+  <!-- Google AdSense Account Meta -->
+  <meta name="google-adsense-account" content="ca-pub-9719761772996087">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'brand-bg': '#FFF8E7',
+            'brand-text': '#4A2C00',
+            'brand-primary': '#E8A44C',
+            'brand-secondary': '#C47F28',
+            'brand-accent': '#8B5E1A',
+          },
+          fontFamily: {
+            'sans': ['Inter', 'sans-serif'],
+            'serif': ['"Noto Serif"', 'serif'],
           },
         },
-      };
-    </script>
+      },
+    };
+  </script>
 
-    <!-- Background & Custom Styles -->
-    <style>
-      body {
-        /* Calm saffron gradient + temple sketch */
-        background-image: 
-          linear-gradient(rgba(255, 248, 231, 0.95), rgba(255, 244, 214, 0.95)),
-          url('https://upload.wikimedia.org/wikipedia/commons/4/44/Hindu_temple_architecture_sketch.jpg');
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        color: #4A2C00;
-      }
+  <!-- Global Styles -->
+  <link rel="stylesheet" href="/index.css">
 
-      /* Smooth fade for visuals */
-      * {
-        transition: all 0.3s ease-in-out;
-      }
-
-      /* Scrollbar customization */
-      ::-webkit-scrollbar {
-        width: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: rgba(255, 248, 231, 0.5);
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #C47F28;
-        border-radius: 4px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #8B5E1A;
-      }
-
-      /* Subtle glow effect on interactive elements */
-      a:hover, button:hover {
-        text-shadow: 0 0 8px rgba(232, 164, 76, 0.5);
-      }
-
-      /* Background overlay for readability */
-      #root::before {
-        content: '';
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-        background: radial-gradient(circle at center, rgba(255, 240, 200, 0.2), transparent 60%);
-        z-index: -1;
-      }
-    </style>
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- Import Maps for React -->
-    <script type="importmap">
-      {
-        "imports": {
-          "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
-          "react-router-dom": "https://esm.sh/react-router-dom@^7.7.1",
-          "react/": "https://esm.sh/react@^19.1.0/",
-          "react": "https://esm.sh/react@^19.1.0"
-        }
-      }
-    </script>
-
-    <!-- Global Styles -->
-    <link rel="stylesheet" href="/index.css">
-
-    <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9719761772996087"
-      crossorigin="anonymous"></script>
-  </head>
+  <!-- Google AdSense Script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9719761772996087"
+    crossorigin="anonymous"></script>
+</head>
 
   <body class="font-serif text-brand-text bg-brand-bg">
     <div id="root"></div>

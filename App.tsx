@@ -3,6 +3,7 @@ import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import { LanguageProvider } from './contexts/LanguageContext';
+import SearchResultsPage from './components/Search';
 
 import HomePage from './pages/HomePage';
 import DeityPage from './pages/DeityPage';
@@ -13,25 +14,19 @@ import Privacy from './components/Privacy';
 
 import { trackPageview } from './components/analytics';
 
-// Component to track route changes
 const RouteChangeTracker: React.FC = () => {
   const location = useLocation();
-
   useEffect(() => {
-    // Track pageview on every route change
     trackPageview(location.pathname + location.hash);
   }, [location]);
-
-  return null; // Does not render anything
+  return null;
 };
 
 const App: React.FC = () => {
   return (
     <LanguageProvider>
       <HashRouter>
-        {/* GA Route tracker */}
         <RouteChangeTracker />
-
         <div className="flex flex-col min-h-screen font-sans">
           <Header />
           <main className="flex-grow container mx-auto px-4 py-8">
@@ -40,8 +35,9 @@ const App: React.FC = () => {
               <Route path="/deity/:deityId" element={<DeityPage />} />
               <Route path="/content/:contentType/:contentId" element={<ContentDisplayPage />} />
               <Route path="/horoscope" element={<HoroscopePage />} />
+              <Route path="/search" element={<SearchResultsPage />} />
               <Route path="/about" element={<About />} />
-              <Route path="/Privacy" element={<Privacy />} />
+              <Route path="/privacy" element={<Privacy />} />
             </Routes>
           </main>
           <Footer />

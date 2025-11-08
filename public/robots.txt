@@ -1,9 +1,14 @@
-# Allow all search engines to crawl everything
+# robots.txt for https://bhagtimarg.co.in/
+# This file tells search engines what to crawl and index.
+
 User-agent: *
-Disallow:
+Allow: /
+
+# Block specific folders that don’t need indexing (optional)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /static/
 
 # Sitemap location
 Sitemap: https://bhagtimarg.co.in/sitemap.xml
-
-# Crawl-delay can be added if you want to limit crawl frequency
-# Crawl-delay: 10

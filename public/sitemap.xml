@@ -1,176 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
   <!-- Homepage -->
-  <url>
-    <loc>https://bhagtimarg.co.in/</loc>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://bhagtimarg.co.in/</loc><priority>1.0</priority></url>
 
-  <!-- Static Pages -->
-  <url>
-    <loc>https://bhagtimarg.co.in/about</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/privacy</loc>
-    <priority>0.8</priority>
-  </url>
+  <!-- Deity pages -->
+  <url><loc>https://bhagtimarg.co.in/deity/ganesha</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/shiva</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/vishnu</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/rama</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/krishna</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/hanuman</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/durga</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/lakshmi</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/saraswati</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/kali</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/gayatri</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/parvati</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/surya</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/chandra</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/mangal</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/budh</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/guru</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/shukra</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/shani</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/rahu</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/ketu</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/sai-baba</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/dattatreya</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/bhairav</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/tulsi</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/sheetla</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/santoshi</loc><priority>0.9</priority></url>
+  <url><loc>https://bhagtimarg.co.in/deity/kartikeya</loc><priority>0.9</priority></url>
 
-  <!-- Deity Pages -->
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/hanuman</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/shiva</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/vishnu</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/lakshmi</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/rama</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/ganesha</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/krishna</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/ganesha</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/durga</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/saraswati</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/kali</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/gayatri</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/parvati</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/surya</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/chandra</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/mangal</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/budh</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/guru</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/shukra</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/shani</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/rahu</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/ketu</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/sai-baba</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/dattatreya</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/bhairav</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/tulsi</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/sheetla</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/santoshi</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/deity/kartikeya</loc>
-    <priority>0.9</priority>
-  </url>
-  <!-- Add more deities as needed -->
+  <!-- Content pages — using IDs from DEITIES.content where available -->
+  <!-- Ganesha -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/ganesha-chalisa</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/ganesha-aarti</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/ganesha-mantra-obstacles</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/story/ganesha-story-tusk</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/story/ganesha-story-head</loc><priority>0.7</priority></url>
 
-  <!-- Content Pages -->
-  <url>
-    <loc>https://bhagtimarg.co.in/content/chalisa/hanuman-chalisa</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/content/aarti/hanuman-aarti</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/content/mantra/hanuman-mantra</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/content/story/hanuman-story</loc>
-    <priority>0.7</priority>
-  </url>
+  <!-- Shiva -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/shiva-chalisa</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/shiva-aarti</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/shiva-mantra-mahamrityunjaya</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/shiva-mantra-om-namah-shivaya</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/story/shiva-story-ganga</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/story/shiva-story-parvati-penance</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/story/shiva-story-third-eye</loc><priority>0.7</priority></url>
 
-  <url>
-    <loc>https://bhagtimarg.co.in/content/chalisa/shiva-chalisa</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/content/aarti/shiva-aarti</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/content/mantra/shiva-mantra</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://bhagtimarg.co.in/content/story/shiva-story</loc>
-    <priority>0.7</priority>
-  </url>
+  <!-- Vishnu -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/vishnu-chalisa</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/vishnu-aarti</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/vishnu-mantra-vasudevaya</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/story/vishnu-story-vamana</loc><priority>0.7</priority></url>
 
-  <!-- Add remaining content pages from ALL_CONTENT array similarly -->
+  <!-- Rama -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/rama-chalisa</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/rama-aarti</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/rama-mantra-raksha</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/story/rama-story-sita-swayamvar</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/story/rama-story-golden-deer</loc><priority>0.7</priority></url>
+
+  <!-- Krishna -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/krishna-chalisa</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/krishna-aarti</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/krishna-mantra-hare</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/krishna-mantra-namah</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/story/krishna-story-govardhan</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/story/krishna-story-kaliya</loc><priority>0.7</priority></url>
+
+  <!-- Hanuman -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/hanuman-chalisa</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/hanuman-aarti</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/hanuman-mantra-strength</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/story/hanuman-story-sanjeevani</loc><priority>0.7</priority></url>
+
+  <!-- Durga -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/durga-chalisa</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/durga-aarti</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/durga-mantra-shakti</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/story/durga-story-mahishasura</loc><priority>0.7</priority></url>
+
+  <!-- Lakshmi -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/lakshmi-chalisa</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/lakshmi-aarti</loc><priority>0.8</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/lakshmi-mantra-prosperity</loc><priority>0.7</priority></url>
+
+  <!-- Saraswati -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/saraswati-chalisa</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/saraswati-aarti</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/saraswati-mantra-knowledge</loc><priority>0.7</priority></url>
+
+  <!-- Kali -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/kali-chalisa</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/kali-aarti</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/kali-mantra-beej</loc><priority>0.7</priority></url>
+
+  <!-- Gayatri -->
+  <url><loc>https://bhagtimarg.co.in/content/mantra/gayatri-mantra</loc><priority>0.7</priority></url>
+
+  <!-- Parvati -->
+  <url><loc>https://bhagtimarg.co.in/content/aarti/parvati-aarti</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/story/shiva-story-parvati-penance</loc><priority>0.7</priority></url>
+
+  <!-- Navgraha / Planet pages -->
+  <url><loc>https://bhagtimarg.co.in/content/navgraha/surya</loc><priority>0.6</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/navgraha/chandra</loc><priority>0.6</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/navgraha/mangal</loc><priority>0.6</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/navgraha/budh</loc><priority>0.6</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/navgraha/guru</loc><priority>0.6</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/navgraha/shukra</loc><priority>0.6</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/navgraha/shani</loc><priority>0.6</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/navgraha/rahu</loc><priority>0.6</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/navgraha/ketu</loc><priority>0.6</priority></url>
+
+  <!-- Sai Baba -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/sai-chalisa</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/sai-aarti</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/sai-mantra-sabka-malik-ek</loc><priority>0.7</priority></url>
+
+  <!-- Dattatreya -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/dattatreya-chalisa</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/dattatreya-aarti</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/dattatreya-mantra-guru-dev</loc><priority>0.7</priority></url>
+
+  <!-- Bhairav -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/bhairav-chalisa</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/bhairav-aarti</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/mantra/bhairav-mantra-namah</loc><priority>0.7</priority></url>
+
+  <!-- Tulsi -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/tulsi-chalisa</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/tulsi-aarti</loc><priority>0.7</priority></url>
+
+  <!-- Sheetla -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/sheetla-chalisa</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/sheetla-aarti</loc><priority>0.7</priority></url>
+
+  <!-- Santoshi -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/santoshi-chalisa</loc><priority>0.7</priority></url>
+  <url><loc>https://bhagtimarg.co.in/content/aarti/santoshi-aarti</loc><priority>0.7</priority></url>
+
+  <!-- Kartikeya -->
+  <url><loc>https://bhagtimarg.co.in/content/chalisa/kartikeya-chalisa</loc><priority>0.7</priority></url>
+
+  <!-- Static / Utility pages -->
+  <url><loc>https://bhagtimarg.co.in/about</loc><priority>0.5</priority></url>
+  <url><loc>https://bhagtimarg.co.in/privacy</loc><priority>0.5</priority></url>
 
 </urlset>
